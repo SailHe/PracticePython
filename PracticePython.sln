@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PracticePython", "PracticePython\PracticePython.pyproj", "{EDCFDAF8-6C24-4047-A4F8-F1243083E26A}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PyApp", "PyApp\PyApp.pyproj", "{74236938-F6EE-4671-8C9A-BEBACB755291}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PyLab", "PyLab\PyLab.pyproj", "{D2D0B887-F5F4-4554-B37C-5C30D52C9B7B}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "AddressFuzzy", "AddressFuzzy\AddressFuzzy.pyproj", "{8B389F19-554D-4AC0-8352-1931C14AA909}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,12 @@ Global
 		{EDCFDAF8-6C24-4047-A4F8-F1243083E26A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDCFDAF8-6C24-4047-A4F8-F1243083E26A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDCFDAF8-6C24-4047-A4F8-F1243083E26A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74236938-F6EE-4671-8C9A-BEBACB755291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74236938-F6EE-4671-8C9A-BEBACB755291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2D0B887-F5F4-4554-B37C-5C30D52C9B7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2D0B887-F5F4-4554-B37C-5C30D52C9B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B389F19-554D-4AC0-8352-1931C14AA909}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B389F19-554D-4AC0-8352-1931C14AA909}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
