@@ -23,11 +23,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="KNeighborsRegressor.py" />
     <Compile Include="NumberGuess.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="PyApp.py" />
     <Compile Include="ClassifierComparison.py" />
+    <Compile Include="README.MD" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|ContinuumAnalytics|Anaconda36-64" />

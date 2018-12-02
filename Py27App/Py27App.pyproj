@@ -2,16 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>d2d0b887-f5f4-4554-b37c-5c30d52c9b7b</ProjectGuid>
+    <ProjectGuid>8ec9062c-8b75-45b0-a99d-c47a52d6b49b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PyLab.py</StartupFile>
+    <StartupFile>Py27App.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>PyLab</Name>
-    <RootNamespace>PyLab</RootNamespace>
-    <InterpreterId>Global|ContinuumAnalytics|Anaconda36-64</InterpreterId>
+    <Name>Py27App</Name>
+    <RootNamespace>Py27App</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,10 +21,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="PyLab.py" />
+    <Compile Include="Py27App.py" />
+    <Compile Include="recipe-580811-1.py" />
   </ItemGroup>
   <ItemGroup>
-    <InterpreterReference Include="Global|ContinuumAnalytics|Anaconda36-64" />
+    <Content Include="addressFuzzy\.vs\addressFuzzy\v15\.suo" />
+    <Content Include="addressFuzzy\.vs\ChineseNumberIdentify\v15\.suo" />
+    <Content Include="README.MD" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
