@@ -29,6 +29,14 @@
     <Content Include="addressFuzzy\.vs\ChineseNumberIdentify\v15\.suo" />
     <Content Include="README.MD" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="addressFuzzy\" />
+    <Folder Include="addressFuzzy\.vs\" />
+    <Folder Include="addressFuzzy\.vs\addressFuzzy\" />
+    <Folder Include="addressFuzzy\.vs\addressFuzzy\v15\" />
+    <Folder Include="addressFuzzy\.vs\ChineseNumberIdentify\" />
+    <Folder Include="addressFuzzy\.vs\ChineseNumberIdentify\v15\" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
        Visual Studio and specify your pre- and post-build commands in

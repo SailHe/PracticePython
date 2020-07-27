@@ -42,7 +42,7 @@ def save_txt(*args):
         with open('qiubai.txt', 'a', encoding='utf-8') as f:
             f.write(i)
 
-
+# py3
 def main():
     # 我们点击下面链接，在页面下方可以看到共有13页，可以构造如下 url，
     # 当然我们最好是用 Beautiful Soup找到页面底部有多少页。

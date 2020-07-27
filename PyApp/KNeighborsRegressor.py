@@ -16,6 +16,7 @@ import numpy as np
 n_dots = 400
 X = 5 * np.random.rand(n_dots, 1)
 y = np.cos(X).ravel()
+print(y)
 
 # 添加一些噪声
 y += 0.2 * np.random.rand(n_dots) - 0.1
